@@ -3,9 +3,11 @@
 A differentiable implementation of the sky signal simulation capabilities of [Toast](https://github.com/hpc4cmb/toast).
 
 The idea is to build a differentiable function that takes a map of the sky, the positions pointe at by telescopes and simulates the signal observed by the telescope.
-Once we have that, we can give it a random sky map, compare the output signal with an actual output signal obtained by a telescope and descend the gradient in order to find a sky map that actually predict the output signal observed.
+Once we have that, we can give it a random sky map, compare the output signal with an actual output signal obtained by a telescope and descend the gradient in order to find a sky map that actually produces the output signal observed.
 
-*Note: this code uses Toast to implemet some of its functionality and cannot, currently, be ran without a copy of Toast installed.*
+Limits: 
+- This code uses Toast to implement some of its functionality and cannot, currently, be ran without a copy of Toast installed
+- This is a proof of concept destined to run on a single node. If you need several node to deal with a large dataset, this will not be useable.
 
 ## Components
 
