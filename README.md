@@ -43,6 +43,10 @@ Working on satellites first then ground telescopes (as those need to also take t
 
 Once the simulator is fully realistic and if we could reverse intermediate steps then we could try and reverse actual telescope data and see what happens.
 
+- find out exactly what we need for our functions
+- import/generate the data using toast
+- export it from the toast format into a very easy to parse format that contains only the information we need (and no MPI reference)
+
 - extract scan map and get it running within this repository for some realistic values
 - make the inputs and outputs of scanmap clear
 - make scan map differentiable
